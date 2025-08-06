@@ -1,0 +1,64 @@
+{
+  "model_name": "MNIST_CNN",
+  "version": "1.0.0",
+  "architecture": {
+    "type": "CNN",
+    "layers": [
+      {
+        "name": "Conv2D",
+        "filters": 8,
+        "kernel_size": "4x4"
+      },
+      {
+        "name": "MaxPool2D",
+        "size": "2x2"
+      },
+      {
+        "name": "Conv2D",
+        "filters": 16,
+        "kernel_size": "3x3"
+      },
+      {
+        "name": "MaxPool2D",
+        "size": "2x2"
+      },
+      {
+        "name": "Dense",
+        "units": 10
+      },
+      {
+        "name": "Dense",
+        "units": 10
+      }
+    ]
+  },
+  "input_shape": [
+    28,
+    28,
+    1
+  ],
+  "output_shape": [
+    10
+  ],
+  "preprocessing": {
+    "normalization": "divide_by_255",
+    "channel_dimension": "added_last"
+  },
+  "performance": {
+    "test_accuracy": 0.9789000153541565,
+    "test_loss": 0.06950484961271286
+  },
+  "training": {
+    "epochs": 5,
+    "batch_size": 32,
+    "validation_split": 0.3,
+    "optimizer": "adam",
+    "loss": "categorical_crossentropy"
+  },
+  "date_created": "2024-01-01",
+  "author": "[Your Name]",
+  "framework": {
+    "name": "tensorflow",
+    "version": "2.16.2"
+  }
+}
