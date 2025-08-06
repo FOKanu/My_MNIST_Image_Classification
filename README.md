@@ -3,7 +3,7 @@
 Hey there! 👋 I am Francis Okorie Iyeke-Kanu, and this is my implementation of a production-ready Convolutional Neural Network (CNN) for handwritten digit recognition. I used the MNIST dataset to create a model that can accurately identify handwritten digits from 0-9.
 
 ## What Makes This Project Special
-I did not just build a basic model - I went the extra mile to make it production-ready with comprehensive evaluation, visualizations, and deployment features. This is a real-world application, not just a classroom exercise!
+I did not just build a basic model - I went the extra mile to make it production-ready with comprehensive evaluation, visualizations, and deployment features. This is a real-world application.
 
 ## Key Features
 - **Smart CNN Architecture**: Custom neural network for handwritten digit recognition
