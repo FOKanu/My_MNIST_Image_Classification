@@ -56,7 +56,7 @@
     "loss": "categorical_crossentropy"
   },
   "date_created": "2024-01-01",
-  "author": "[Your Name]",
+  "author": "Francis Okorie Kanu",
   "framework": {
     "name": "tensorflow",
     "version": "2.16.2"
